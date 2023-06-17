@@ -1,0 +1,153 @@
+{
+  "configVersion": 1,
+  "timestamp": 1687023764154,
+  "index": "./index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "./272.ae299bb92787268a.js",
+        "./438.93e68e8ece8aa280.js",
+        "./586.a9c78588d644a177.js",
+        "./746.f891f08b913a12b1.js",
+        "./793.0a670db8150c38f7.js",
+        "./common.981169405d5f8364.js",
+        "./index.html",
+        "./main.81d26406220e6476.js",
+        "./manifest.webmanifest",
+        "./polyfills.93b9b9a7d9fe04c6.js",
+        "./runtime.c4856ddb99812c43.js",
+        "./styles.7cf2baad6c6f7ac7.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "./MaterialIcons-Regular.067e87140f9295a0.woff",
+        "./MaterialIcons-Regular.f04d7d84160e8afb.ttf",
+        "./MaterialIcons-Regular.f4763db1105fb2da.woff2",
+        "./assets/i18n/en.json",
+        "./assets/icons/android-chrome-192x192.png",
+        "./assets/icons/android-chrome-512x512.png",
+        "./assets/icons/android-chrome-maskable-192x192.png",
+        "./assets/icons/android-chrome-maskable-512x512.png",
+        "./assets/icons/apple-touch-icon.png",
+        "./assets/icons/favicon.256x256.png",
+        "./assets/icons/favicon.512x512.png",
+        "./assets/icons/favicon.icns",
+        "./assets/icons/favicon.ico",
+        "./assets/icons/favicon.png",
+        "./assets/icons/github-light.png",
+        "./assets/icons/icon-1024.png",
+        "./assets/icons/icon-128.png",
+        "./assets/icons/icon-16.png",
+        "./assets/icons/icon-32.png",
+        "./assets/icons/icon-48.png",
+        "./assets/icons/icon-64.png",
+        "./assets/icons/icon-tv-256.png",
+        "./assets/icons/icon.png",
+        "./assets/icons/twitter-light.png",
+        "./assets/images/custom-player.png",
+        "./assets/updates/0110/import-playlist-as-text.png",
+        "./assets/updates/0110/multi-epg-view.png",
+        "./assets/updates/0110/multiple-epg-sources.png",
+        "./assets/updates/0130/mpv-player.png",
+        "./assets/updates/060/channel-logos.png",
+        "./assets/updates/060/custom-user-agent.png",
+        "./assets/updates/060/dark-theme.png",
+        "./assets/updates/070/auto-refresh.png",
+        "./assets/updates/070/refresh-playlist.png",
+        "./assets/updates/080/channel-info.png",
+        "./assets/updates/080/translations.png",
+        "./assets/updates/090/languages.png",
+        "./assets/updates/090/reorder-playlists.gif",
+        "./assets/updates/090/subtitle-option.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "./272.ae299bb92787268a.js": "296ec4262691a96a7ac7b120e2222ffff77bfdcb",
+    "./438.93e68e8ece8aa280.js": "8b717ed741410d224901eab4426aeb73619b22fd",
+    "./586.a9c78588d644a177.js": "b54133d381d1aa8d70b61a291fa54d8529c6e74c",
+    "./746.f891f08b913a12b1.js": "8a23af7de229b282f46a39d90df8656f2f3eceb1",
+    "./793.0a670db8150c38f7.js": "130ea2b79299a207f78022e394e1a08fe53bb264",
+    "./MaterialIcons-Regular.067e87140f9295a0.woff": "951adc0458f2ead8495da26886b1f1284a716eaa",
+    "./MaterialIcons-Regular.f04d7d84160e8afb.ttf": "8387df2a663e4d99557093b4dd50e4df2bd07860",
+    "./MaterialIcons-Regular.f4763db1105fb2da.woff2": "308ee3580a4a34bd230025d460762d53b5344efc",
+    "./assets/i18n/en.json": "14181e004b765528b1d62ecff9b5fc0ac15b3199",
+    "./assets/icons/android-chrome-192x192.png": "71b2f721a632ac2e02b394c7b6bb901c99d68a38",
+    "./assets/icons/android-chrome-512x512.png": "89461c52b80195b8865e54f00d4ea1f6171a85c1",
+    "./assets/icons/android-chrome-maskable-192x192.png": "461b3018f48c727874b4b5a9123b5715401425f8",
+    "./assets/icons/android-chrome-maskable-512x512.png": "46adfffdce6dfcac4fd9f02d7e506eeb1b4b819f",
+    "./assets/icons/apple-touch-icon.png": "375613bb036cc482a458503545f57d227bfcfa07",
+    "./assets/icons/favicon.256x256.png": "3f873e7af1ba2d9ef6996a6060ff3b084139fc5b",
+    "./assets/icons/favicon.512x512.png": "dbf588a3199d36e96d0a4eabd36a844654819146",
+    "./assets/icons/favicon.icns": "8036209128af94d69fb4464ea8dbae8b17bcab0b",
+    "./assets/icons/favicon.ico": "56d725a1c98d93d90e72a7e02098f83d3194c94c",
+    "./assets/icons/favicon.png": "3f873e7af1ba2d9ef6996a6060ff3b084139fc5b",
+    "./assets/icons/github-light.png": "b2a79b392657b559776ce122c89e42c42970595f",
+    "./assets/icons/icon-1024.png": "cf0dd87a9372a5e358199cc7acf42ba919e9cae0",
+    "./assets/icons/icon-128.png": "78b55dbd75e455772da66cb2543066b982d35cad",
+    "./assets/icons/icon-16.png": "00b669c696ec9174d904535074ce3f0031934fed",
+    "./assets/icons/icon-32.png": "b3cd70e421017b2ca8c4b6de3c8fe887d3797af0",
+    "./assets/icons/icon-48.png": "6a1ba40edf11f606b90c711f84b25f03f2d58ef1",
+    "./assets/icons/icon-64.png": "53b3228d9ff12419d997f047aee41f81b39bd913",
+    "./assets/icons/icon-tv-256.png": "0af543569fca7fb3a9ae40cbcf3c8386c6eac376",
+    "./assets/icons/icon.png": "3f873e7af1ba2d9ef6996a6060ff3b084139fc5b",
+    "./assets/icons/twitter-light.png": "ec2fea28c4596ca89f3d6565149ad4451512feb3",
+    "./assets/images/custom-player.png": "0147d9f8d0843b6a6fe911e416f40ae4b26185dd",
+    "./assets/updates/0110/import-playlist-as-text.png": "5039e8b89a55dbb71bc1d68213a4710f4bba5e05",
+    "./assets/updates/0110/multi-epg-view.png": "df2461a4b525dd96430f4970016aa3531ffffe28",
+    "./assets/updates/0110/multiple-epg-sources.png": "552f7b7a75910e8171c897e5ddb43245f097600f",
+    "./assets/updates/0130/mpv-player.png": "471324101826a5a31085dc33169af8590c2fd087",
+    "./assets/updates/060/channel-logos.png": "29055e5f9caccb47992578ee9ff2450d06c1034a",
+    "./assets/updates/060/custom-user-agent.png": "0cb2eb52527bb7f3931a78a865cf8a2e8f2c5c5b",
+    "./assets/updates/060/dark-theme.png": "eb3f3c004054c17864f586b7d2adb8b3a2d24bad",
+    "./assets/updates/070/auto-refresh.png": "24b37f337f41c1eb6c8ee2acce59936658e16b6e",
+    "./assets/updates/070/refresh-playlist.png": "ac4f2400578819a2f5bd7a150d0ae4bbba785f91",
+    "./assets/updates/080/channel-info.png": "6312d4be8a5d1290440c0ec13b76909e6ba837a8",
+    "./assets/updates/080/translations.png": "25bee835c432900561d650bf0daaa202ba1711df",
+    "./assets/updates/090/languages.png": "6a7518ba480c9ce7658819f390cff9fca7d5b772",
+    "./assets/updates/090/reorder-playlists.gif": "c47a0b1048529133359bedd5bbad7ecd66a18e24",
+    "./assets/updates/090/subtitle-option.png": "18b3ae09a505aff70bd9410411e878f11c263024",
+    "./common.981169405d5f8364.js": "1286a0df2fc69c92bdcb2dd5cd3d8364d87e633d",
+    "./index.html": "cf176ccef1ff584d83a98fc24418443b4251f877",
+    "./main.81d26406220e6476.js": "ba80308c921dd72e3b950238586bd0a46f60313a",
+    "./manifest.webmanifest": "e45bd8e96237cd1d4aaf2ae25d59adf1966004fa",
+    "./polyfills.93b9b9a7d9fe04c6.js": "20f46cf37a4c1f9b28ab0459260bb168531980be",
+    "./runtime.c4856ddb99812c43.js": "0b4e97046373fc90c1e7d6166fc3726c62a84efe",
+    "./styles.7cf2baad6c6f7ac7.css": "b862b06cbe99ba47aebe98e8adabfe9a934179e9"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
