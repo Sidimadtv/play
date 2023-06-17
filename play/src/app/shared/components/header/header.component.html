@@ -1,0 +1,49 @@
+<div class="logo">
+    <img src="./assets/icons/icon-tv-256.png" height="100" />
+</div>
+<div class="main">
+    <div class="title">{{ title }}</div>
+    <div class="subtitle">{{ subtitle }}</div>
+</div>
+<div class="menu">
+    <button
+        *ngIf="isElectron; else pwaMenu"
+        mat-icon-button
+        (click)="openSettings()"
+        data-test-id="open-settings"
+    >
+        <mat-icon>settings</mat-icon>
+    </button>
+</div>
+
+<ng-template #pwaMenu>
+    <button
+        mat-icon-button
+        [matMenuTriggerFor]="menu"
+        [attr.aria-label]="'MENU.OPEN' | translate"
+    >
+        <mat-icon>menu</mat-icon>
+    </button>
+    <mat-menu #menu="matMenu">
+        <ng-container *ngIf="isHome">
+            <button
+                mat-menu-item
+                [attr.aria-label]="'MENU.SETTINGS_ARIA' | translate"
+                (click)="openSettings()"
+            >
+                <mat-icon>settings</mat-icon>
+                <span>{{ 'MENU.SETTINGS' | translate }}</span>
+            </button>
+            <mat-divider></mat-divider>
+        </ng-container>
+       
+        
+    </mat-menu>
+</ng-template>
+<ngx-whats-new
+    *ngIf="!isElectron && isDialogVisible$ | async"
+    (closeModal)="setDialogVisibility(false)"
+    [items]="modals"
+    [options]="options"
+>
+</ngx-whats-new>
