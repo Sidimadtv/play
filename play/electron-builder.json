@@ -1,0 +1,65 @@
+{
+    "asar": true,
+    "productName": "S!d!m@D-IpTV Pl@yeR",
+    "directories": {
+        "output": "release/"
+    },
+    "files": [
+        "**/*",
+        "dist",
+        "!**/*.ts",
+        "!*.code-workspace",
+        "!LICENSE.md",
+        "!README.md",
+        "!CHANGELOG.md",
+        "!package.json",
+        "!package-lock.json",
+        "!src/",
+        "!e2e/",
+        "!hooks/",
+        "!angular.json",
+        "!tsconfig.json",
+        "!tsconfig.*.json",
+        "!tslint.json",
+        "!*.png",
+        "!coverage",
+        "!e2e",
+        "!playwright-report",
+        "!test-report"
+    ],
+    "win": {
+        "icon": "dist/assets/icons",
+        "target": [
+            {
+                "target": "nsis",
+                "arch": ["ia32", "x64"]
+            }
+        ]
+    },
+    "mac": {
+        "icon": "dist/assets/icons/icon-1024.png",
+        "target": {
+            "target": "dmg",
+            "arch": ["universal"]
+        }
+    },
+    "linux": {
+        "icon": "dist/assets/icons",
+        "category": "Video",
+        "target": [
+            "AppImage",
+            "Snap",
+            "deb",
+            "rpm"
+        ]
+    },
+    "publish": [
+        {
+            "provider": "github",
+            "owner": "S!d!m@D",
+            "repo": "S!d!m@D",
+            "releaseType": "release",
+            "updaterCacheDirName": "S!d!m@D"
+        }
+    ]
+}
