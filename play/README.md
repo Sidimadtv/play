@@ -1,7 +1,7 @@
-# ESX-IPTV - IPTV Player Application
+# IPTV Player
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/psycodeliccircus/esx-iptv/main/src/assets/icons/favicon.256x256.png" alt="ESX-IPTV icon" title="Free IPTV player application" />
+  <img src="https://gitloaf.com/Sidimadtv/all/sidi/assets/images/logo.png" " title="Free IPTV player application" />
 </p>
 <p align="center">
   <a href="https://github.com/psycodeliccircus/esx-iptv/releases"><img src="https://img.shields.io/github/release/psycodeliccircus/esx-iptv.svg?style=for-the-badge&logo=github" alt="Release"></a> <img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/psycodeliccircus/esx-iptv/Build%20and%20release?style=for-the-badge"> <a href="https://github.com/psycodeliccircus/esx-iptv/releases"><img src="https://img.shields.io/github/downloads/psycodeliccircus/esx-iptv/total?style=for-the-badge&logo=github" alt="Releases"></a> <a href="https://codecov.io/gh/psycodeliccircus/esx-iptv"><img alt="Codecov" src="https://img.shields.io/codecov/c/github/psycodeliccircus/esx-iptv?style=for-the-badge"></a> <a href="https://twitter.com/renildomarcio"><img src="https://img.shields.io/badge/twitter-esxiptv-blue?logo=twitter&style=for-the-badge" alt="Twitter"></a>
